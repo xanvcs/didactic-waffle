@@ -1,6 +1,7 @@
 // inline styling
 // can become less maintainable and harder to read as the component grows
 // not used for complex styling
+// extern references to styles in css files
 
 function Button2() {
     const styles = {

@@ -4,6 +4,7 @@ import Food from './Food.jsx'
 import Card from './Card.jsx'
 import Button from './Button/Button.jsx'
 import Button2 from './Button2.jsx'
+import Student from './Student.jsx'
 
 function App() {
   return(
@@ -13,8 +14,8 @@ function App() {
       <Button2/>
       <Card/>
       <Card/>
-      <Card/>
-      <Card/>
+      <Student name="Spongebob" age={30} isStudent={true}/>
+      <Student/>
       <Food/>
       <Food/>
       <Footer/>
